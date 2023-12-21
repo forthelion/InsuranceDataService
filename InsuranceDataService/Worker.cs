@@ -25,9 +25,9 @@ await host.RunAsync();
 public class Worker : BackgroundService
 {
     // you need to change your credtiantianl when running this part
-    private const string AwsAccessKey = "ASIAVWS2Z4LH7NHXEGOB";
-    private const string AwsSecretKey = "bPTciwaX6tjHnVtdaNrX4ET715X0pk3MubKVhJns";
-    private const string AwsSessionToken = "FwoGZXIvYXdzEPz//////////wEaDNsBwmqjV49UntyO1yLRAXGxHmCpFB6uX3udhdGn8X1ouJSUILYlfbKbrAspQB6S4xvGyeW+FcwYJ4kzNEUCiLZuNehb2VKxaDov+Q05Qwp43HsrlO96vaRfwXnAHEn7KqXDPxEbKTurYV6vZiHAzPD27KcNfLqDg8Ss4NVvP+Oz5Nnbno2kXpq4f4+RMxsp74y3GT0YdUfgvzCHi9Mti7/yAjRv22n2Kq+lKw6KYWpDh75gvBjLCMq24zIG9B1oqOi2qKPmKnGOEzOvEx7kLp63WfQdEW8lTfR7/bv06qnsKLbV+KMGMi1y8K4/s780DmYVC/TjghbWZM54Sv069VCQnfdMOeBtcfmwQfPtn8iH/KxVrMs=";
+    private const string AwsAccessKey = "Fake";
+    private const string AwsSecretKey = "Fake";
+    private const string AwsSessionToken = "Fake";
 
     private readonly ILogger<Worker> _logger;
 
